@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="HomeStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Namdev</title>
+</head>
+<body>
+    <nav class="shadow p-3 bg-body rounded navbar navbar-expand-lg bg-body-fff fixed">
+  <div class="container-fluid">
+    <img src="profile.png" alt="Logo" width="30" height="24" class="img-fluid d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">Ayush Namdev</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="ml-70 collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="document.getElementById('about').scrollIntoView();" >ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="document.getElementById('projects').scrollIntoView();">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" onclick="document.getElementById('contact').scrollIntoView();">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid bg-body-tertiary" id="body">
+    <div class="row">
+        <div class="col-1 align-item-center">
+          <a target="_blank" href="https://www.linkedin.com/in/ayush-namdev-959872244"><img src="linkdin.png" class="logo"></a>
+          <a target="_blank" href="https://github.com/Ayush2004namdev"><img src="git.png" class="logo1"></a>
+          <a href="#"><img src="insta.png" class="logo1"></a>
+        </div>
+        <div class="col-11">
+    <div class="container">
+        <h1 id="hell">HEY, I AM AYUSH NAMDEV</h1>
+        <p class="what">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+        <div class="container-fluid" id="contactMeBtn">
+            <a onclick="document.getElementById('contact').scrollIntoView();" class="btn btn-warning"  id="button">Contact</a>
+        </div>
+    </div>
+                    <div class="scroll-downs">
+                        <div class="mousey">
+                        <div class="scroller">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<section id="about" class="bg-light pad-sec">
+    <div class="container">
+    <h1 class="title">ABOUT ME</h1>
+    <div id="tit"><span> </span></div>
+    <p class="about">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+    <div class="row">
+        <div class="col-md-6">
+            <h1 style="margin-bottom: 30px;">Get to know me!</h1>
+            <p class="know">I'm a <strong>Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success 
+                of the overall product. Check out some of my work in the <strong>Projects</strong> section.</p>
+            <p class="know">I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="">Linkedin</a> where I post useful content related to Web Development and Programming</p>
+            </div>
+            <div class="col-md-6">
+                <h1 style="margin-left: 20%;">SKILLS!</h1>
+                <section>
+                    <a class="btn skills" href="#">HTML</a>
+                    <a class="btn skills" href="#">CSS</a>
+                    <a class="btn skills" href="#">JAVASCRIPT</a>
+                    <a class="btn skills" href="#">NODE.JS</a>
+                    <a class="btn skills" href="#">BOOTSTRAP</a>
+                    <a class="btn skills" href="#">MONGODB</a>
+                    <a class="btn skills" href="#">GITHUB</a>
+                    <a class="btn skills" href="#">RESPONSIVE DESIGN</a>
+                </section>
+                <div class="container d-flex justify-content-center align-item-center" style="margin-top: 40px;">
+                <a onclick="document.getElementById('contact').scrollIntoView();" class="btn btn-warning" id="button">Contact</a>
+            </div>
+          </div>
+    </div>
+</div>
+</section>
+
+<section id="projects" class="pad-sec bg-light">
+    <div class="container">
+        <h1 class="title">PROJECTS</h1>
+        <div id="tit"><span> </span></div>
+        <p class="about" style="display: block;">Here you will find some of the personal projects that I created</p>
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-item-center">
+                <img class="img-fluid" src="yelpcamp.png" alt="projectImage">
+            </div>
+            <div class="col-md-6 projectInfo">
+                <div class="container">
+                <h1 class="projectH">YelpCamp</h1>
+                <p class="know">YelpCamp is a very basic project which I created using <strong>NODE.JS and MongoDb</strong>. It was My first project which I Ever Hosted. You can check the project here..</p>
+                <div class="d-flex justify-content-center">
+                <a href="https://enthusiastic-slug-miniskirt.cyclic.app" class="btn btn-warning" id="button" target="_blank">HERE</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="pad-sec last">
+    <div class="container">
+        <h1 class="title">Contact</h1>
+        <div class="contact">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label known">Name</label>
+                <input type="text" class="form-control change" required id="name" aria-describedby="emailHelp">
+              </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label known">Email address</label>
+              <input type="email" class="form-control change" required id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label known">Message</label>
+              <textarea class="form-control change" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-warning" id="button">Submit</button>
+        </div>
+          </form>
+        </div>
+
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
